@@ -5,8 +5,7 @@ public class CanvasTextManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI title;
     [SerializeField] private TextMeshProUGUI content;
-    [SerializeField] private Transform gredPlayer;
-    
+
     private Camera main;
 
     private void Awake()
@@ -22,11 +21,6 @@ public class CanvasTextManager : MonoBehaviour
 
     private void Update()
     {
-        if (gredPlayer != null && gredPlayer.gameObject.activeSelf)
-        {
-            Vector3 vectorToGred = gredPlayer.position - transform.position;
-            transform.forward = -vectorToGred;
-        }
-        else transform.forward = main.transform.forward;
+        transform.forward = main.transform.forward;
     }
 }

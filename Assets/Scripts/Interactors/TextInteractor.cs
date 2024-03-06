@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class TextInteractor : InteractorMonobehaviour
@@ -9,10 +8,9 @@ public class TextInteractor : InteractorMonobehaviour
 
     private void OnEnable()
     {
-        
         textPanel.gameObject.SetActive(false);
     }
-
+    
     public void UpdateText()
     {
         textPanel.UpdateText(title, content);
