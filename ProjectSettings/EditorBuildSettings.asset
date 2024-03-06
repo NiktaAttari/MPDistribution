@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WeCreateNewScene.unity
     guid: cdc2e78ba05b0cc418a5eabdf7401e95
+  - enabled: 1
+    path: Assets/Scenes/TextileWasteDump.unity
+    guid: 9d853d5efc7dc457eaf6feb1489ee520
   m_configObjects: {}
