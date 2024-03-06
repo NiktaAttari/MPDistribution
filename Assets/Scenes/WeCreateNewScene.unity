@@ -5149,7 +5149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 1398916340}
   content: {fileID: 1966915949}
-  gredPlayer: {fileID: 838762447}
 --- !u!224 &40122594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5477,7 +5476,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 434345483}
   content: {fileID: 1079548442}
-  gredPlayer: {fileID: 838762447}
 --- !u!224 &114788222
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21668,7 +21666,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 641131689}
   content: {fileID: 443705548}
-  gredPlayer: {fileID: 838762447}
 --- !u!114 &296126777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28782,7 +28779,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 873438936}
   content: {fileID: 876699906}
-  gredPlayer: {fileID: 838762447}
 --- !u!114 &526028844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45988,11 +45984,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &838762447 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6915627315357615548, guid: d791503b735c8d545ad422700c320c58, type: 3}
-  m_PrefabInstance: {fileID: 2782049360391028758}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &841842130
 GameObject:
   m_ObjectHideFlags: 0
@@ -74672,7 +74663,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 1864666207}
   content: {fileID: 1012017909}
-  gredPlayer: {fileID: 838762447}
 --- !u!114 &1345041572
 MonoBehaviour:
   m_ObjectHideFlags: 0
