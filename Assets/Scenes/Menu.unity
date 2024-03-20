@@ -1,0 +1,736 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311924, g: 0.38073963, b: 0.3587269, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 0
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 1960342900}
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &1689856722
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100466, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114848, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Name
+      value: Videos
+      objectReference: {fileID: 0}
+    - target: {fileID: 118784, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 129808, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 131220, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 132820, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 141212, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148860, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 151198, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Name
+      value: Discover
+      objectReference: {fileID: 0}
+    - target: {fileID: 151198, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 168050, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 180332, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Name
+      value: Discover
+      objectReference: {fileID: 0}
+    - target: {fileID: 180332, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 180792, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 182430, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Name
+      value: Discover
+      objectReference: {fileID: 0}
+    - target: {fileID: 182430, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 183360, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 194206, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198662, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 443488, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443488, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443488, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443488, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443488, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 443488, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443488, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443488, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237934, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3aefffc0505d64f29ae569fe151955e4, type: 3}
+    - target: {fileID: 8278746, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3aefffc0505d64f29ae569fe151955e4, type: 3}
+    - target: {fileID: 8283628, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3aefffc0505d64f29ae569fe151955e4, type: 3}
+    - target: {fileID: 11402268, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Sample Processing '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11409418, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: Discover
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: LoadingTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: PlayButtonName
+      value: DISCOVER >
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: FakeStartLoading
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[0].Title
+      value: City/Urban Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[1].Title
+      value: Textile Waste Dump
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[2].Level
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[3].Level
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[4].Level
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[5].Level
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[2].isLock
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[4].isLock
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[5].isLock
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[0].Preview
+      value: 
+      objectReference: {fileID: 21300000, guid: 91a41ee04426b4bf7a688b1144d6368d, type: 3}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[1].Preview
+      value: 
+      objectReference: {fileID: 21300000, guid: 82d48754b27f3451f821a5526c4c610d, type: 3}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[0].LevelName
+      value: WeCreateNewScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[1].LevelName
+      value: TextileWasteDump
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[0].Description
+      value: Step into the heart of a vibrant city and navigate through the streets
+        to discover the main sources of airborne microplastics that surround us.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412636, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: Levels.Array.data[1].Description
+      value: Venture into a desolate wasteland, where piles of discarded fabrics
+        and textiles stretch as far as the eye can see. Uncover how textile waste
+        contributes to the airborne microplastic pollution that plagues our environment.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11413114, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Air Sampling '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11416638, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6ec2239168774606b27d8672ba5aa85, type: 3}
+    - target: {fileID: 11416638, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419248, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Videos '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419770, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Color.b
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419770, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Color.g
+      value: 0.25882354
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419770, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420638, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Learn about techniques used to detect and identify microplastics in
+        the air.  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11423138, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Microplastics Unearthed: Exploring a Global Phenomenon'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11423138, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11427932, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55c196843b6f94496b672cc6b43d68e9, type: 3}
+    - target: {fileID: 11431422, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: Discover
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441096, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441096, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Color.g
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441096, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Color.r
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 11442142, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Discover the sources of the microplastics in our air in different environments. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11445128, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Microplastics are everywhere '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11445128, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11445128, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452770, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Sample Analysis '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458822, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cf76cdb9e723b49b7a20ecd8a35eb4c5, type: 3}
+    - target: {fileID: 11466378, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: Joud & Nikta
+      objectReference: {fileID: 0}
+    - target: {fileID: 11467148, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: Microplastics in the Air
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469532, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: "Welcome to an immersive journey into the world of microscopic plastic
+        particles suspended in our air. \n\nTraverse diverse landscapes and uncover
+        the hidden pathways through which these tiny pollutants infiltrate our atmosphere.
+        Witness the ubiquity of airborne microplastics and their impact on ecosystems
+        worldwide, from bustling urban centers to remote wilderness areas. \n\nAre
+        you ready to uncover the main sources of airborne microplastics that pollute
+        our air?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469532, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469532, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11477412, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'You have the opportunity to explore two distinct environments: the
+        bustling city/urban area and the textile waste dump.
+
+
+
+        Embark on
+        an enlightening journey through these contrasting environments, each revealing
+        a different facet of the microplastic crisis that threatens our planet. Are
+        you ready to explore and discover the hidden truths within these diverse
+        landscapes?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11479504, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Learn about how airborne microplastics are collected and analysed! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11483030, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Explore and Learn '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11483086, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_Text
+      value: 'Select Environment '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485420, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: PlayerNameText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 22407782, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22407782, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22407782, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22407782, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -70.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 22412706, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -67.35003
+      objectReference: {fileID: 0}
+    - target: {fileID: 22412706, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -33.724987
+      objectReference: {fileID: 0}
+    - target: {fileID: 22416900, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22416900, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22416900, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22416900, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -114.00003
+      objectReference: {fileID: 0}
+    - target: {fileID: 22416900, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -70.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 22417894, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 4.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 22420210, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -145.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422678, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422678, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22424590, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -261.69998
+      objectReference: {fileID: 0}
+    - target: {fileID: 22424590, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 133.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 22429364, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000061035156
+      objectReference: {fileID: 0}
+    - target: {fileID: 22429364, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432456, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432456, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432456, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22434068, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 92.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 22434068, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -82.20001
+      objectReference: {fileID: 0}
+    - target: {fileID: 22435248, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14.251007
+      objectReference: {fileID: 0}
+    - target: {fileID: 22435394, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22435394, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22436674, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.9999847
+      objectReference: {fileID: 0}
+    - target: {fileID: 22450036, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -161
+      objectReference: {fileID: 0}
+    - target: {fileID: 22451400, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -63.000153
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454104, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454104, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454104, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454104, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.7400055
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456458, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22458180, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22458180, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22458180, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22458180, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -70.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 22467528, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 250.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 22467528, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 11.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22472170, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 22472170, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 22488110, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000061035156
+      objectReference: {fileID: 0}
+    - target: {fileID: 22488110, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497966, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 421.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 180792, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+    - {fileID: 101760, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+    - {fileID: 153436, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 07e1bf3067aed7340b1969c7fddeee23, type: 3}
+--- !u!850595691 &1960342900
+LightingSettings:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings.lighting
+  serializedVersion: 6
+  m_GIWorkflowMode: 0
+  m_EnableBakedLightmaps: 1
+  m_EnableRealtimeLightmaps: 1
+  m_RealtimeEnvironmentLighting: 1
+  m_BounceScale: 1
+  m_AlbedoBoost: 1
+  m_IndirectOutputScale: 1
+  m_UsingShadowmask: 0
+  m_BakeBackend: 0
+  m_LightmapMaxSize: 1024
+  m_BakeResolution: 40
+  m_Padding: 2
+  m_LightmapCompression: 3
+  m_AO: 0
+  m_AOMaxDistance: 1
+  m_CompAOExponent: 0
+  m_CompAOExponentDirect: 0
+  m_ExtractAO: 0
+  m_MixedBakeMode: 1
+  m_LightmapsBakeMode: 1
+  m_FilterMode: 1
+  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+  m_ExportTrainingData: 0
+  m_TrainingDataDestination: TrainingData
+  m_RealtimeResolution: 2
+  m_ForceWhiteAlbedo: 0
+  m_ForceUpdates: 0
+  m_FinalGather: 0
+  m_FinalGatherRayCount: 1024
+  m_FinalGatherFiltering: 1
+  m_PVRCulling: 1
+  m_PVRSampling: 1
+  m_PVRDirectSampleCount: 32
+  m_PVRSampleCount: 512
+  m_PVREnvironmentSampleCount: 512
+  m_PVREnvironmentReferencePointCount: 2048
+  m_LightProbeSampleCountMultiplier: 4
+  m_PVRBounces: 2
+  m_PVRMinBounces: 2
+  m_PVREnvironmentImportanceSampling: 0
+  m_PVRFilteringMode: 0
+  m_PVRDenoiserTypeDirect: 0
+  m_PVRDenoiserTypeIndirect: 0
+  m_PVRDenoiserTypeAO: 0
+  m_PVRFilterTypeDirect: 0
+  m_PVRFilterTypeIndirect: 0
+  m_PVRFilterTypeAO: 0
+  m_PVRFilteringGaussRadiusDirect: 1
+  m_PVRFilteringGaussRadiusIndirect: 5
+  m_PVRFilteringGaussRadiusAO: 2
+  m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+  m_PVRFilteringAtrousPositionSigmaIndirect: 2
+  m_PVRFilteringAtrousPositionSigmaAO: 1
+  m_PVRTiledBaking: 0
+  m_NumRaysToShootPerTexel: -1
+  m_RespectSceneVisibilityWhenBakingGI: 0
