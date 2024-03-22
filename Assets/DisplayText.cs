@@ -8,15 +8,25 @@ public class DisplayText : MonoBehaviour
     public string[] sentences;
     public float typingSpeed = 0.05f;
 
-    private void Start()
+    private int currentSentenceIndex = 0; // Track the current sentence index
+
+    private void OnEnable()
     {
-        StartCoroutine(TypeText());
+        ResetText();
+    }
+
+    private void ResetText()
+    {
+        currentSentenceIndex = 0; // Reset the current sentence index
+        StopAllCoroutines(); // Stop any ongoing coroutine
+        StartCoroutine(TypeText()); // Start typing from the beginning
     }
 
     IEnumerator TypeText()
     {
-        foreach (string sentence in sentences)
+        while (currentSentenceIndex < sentences.Length) // Loop until all sentences are displayed
         {
+            string sentence = sentences[currentSentenceIndex];
             textBox.text = ""; // Clear text before displaying the next sentence
             textBox.fontSize = 0.3f; // Set the initial font size
             foreach (char letter in sentence)
@@ -25,6 +35,7 @@ public class DisplayText : MonoBehaviour
                 yield return new WaitForSeconds(typingSpeed);
             }
             yield return new WaitForSeconds(2f); // Delay between sentences
+            currentSentenceIndex++; // Move to the next sentence
         }
     }
 }
