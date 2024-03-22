@@ -21,6 +21,8 @@ public class CanvasTextManager : MonoBehaviour
 
     private void Update()
     {
-        transform.forward = main.transform.forward;
+        Vector3 targetDirection = (main.transform.position -  transform.position).normalized;
+        targetDirection = new Vector3 (targetDirection.x, 0f, targetDirection.z);
+        transform.forward = -targetDirection;
     }
 }
