@@ -9,4 +9,12 @@ public class BackButton : MonoBehaviour
     {
         SceneManager.LoadScene(menuScene);
     }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            LoadScene();
+        }
+    }
 }
