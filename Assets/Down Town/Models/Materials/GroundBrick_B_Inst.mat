@@ -104,7 +104,7 @@ Material:
     - _PuddleReflectionAmount: 1
     - _PuddleSize: 0.25
     - _RainFallAmount: 2.22
-    - _Scale: 0.01
+    - _Scale: 0.002
     - _Smoothness: 1.207
     - _SrcBlend: 1
     - _Tiling: 1
